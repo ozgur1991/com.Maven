@@ -2,7 +2,7 @@ name: Nightly selenium test with Maven
 
 on:
   schedule:
-    - cron: '35 21 * * *' # Her gece 21:35'te çalışır
+    - cron: '00 22 * * *'
 
 jobs:
   build-and-test:
